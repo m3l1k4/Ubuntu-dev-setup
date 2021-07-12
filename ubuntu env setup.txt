@@ -1,15 +1,25 @@
 sudo apt install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+
+##########################################
+
 vim ~/.zshrc // opens vip editor
-replace ZSH_THEME
+ 
+ to replace ZSH_THEME
  press i 
-paste ZSH_THEME="powerlevel10k/powerlevel10k"
+ comment out with #
+paste ZSH_THEME="powerlevel10k/powerlevel10k" using right click
+press esc
+press  :wq to save and quite
 
 comment out with # 
 press esc
 shift column wq
 wq is qrite and quit
+
+##########################################
+
 
 p10k configure
 
